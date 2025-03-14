@@ -1,0 +1,95 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "IBM Plex Mono";
+  letter-spacing: -0.03em;
+}
+
+.comtainer {
+  background: #000000;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.NavigationSection {
+  display: block;
+  width: 1153px;
+  height: 55px;
+  /* margin: 27px 0 0 123px; */
+  margin-left: 123px;
+  padding-top: 27px;
+}
+
+.MainButtom {
+  margin-right: 380px;
+  width: 230px;
+  height: 39px;
+  background: #000000;
+  /* top: 36px; */
+  /* left: ; */
+  border-style: none;
+  border-radius: 100px;
+  font-family: IBM Plex Mono;
+  font-weight: 700;
+  font-size: 42.41px;
+  line-height: 100%;
+  letter-spacing: -0.11em;
+  text-transform: uppercase;
+  color: #1bff07;
+  cursor: pointer;
+}
+
+.NavigationLink:hover {
+  color: #1bff07;
+}
+
+.NavigationLink {
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: -0.03em;
+  margin-right: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}
+.NavigationLink:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.Main_Image {
+  position: relative;
+  width: 1400px;
+  height: 765px;
+  background-image: url(../resourses/Main_Image.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 150px;
+}
+
+.MainParagraph {
+  position: absolute;
+  text-align: left;
+  width: 430px;
+  left: 152px;
+  top: 334px;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: -0.03em;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.HelloParagraph {
+  position: absolute;
+  text-align: left;
+  width: 919px;
+  left: 119px;
+  bottom: 94px;
+  font-weight: 400;
+  font-size: 80px;
+  letter-spacing: -0.03em;
+  line-height: 70px;
+  color: #1bff07;
+}
