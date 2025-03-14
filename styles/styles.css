@@ -112,11 +112,27 @@ h1 {
 .Project_Item {
   position: relative;
   border-radius: 30px;
+  overflow: hidden; /* Чтобы градиент не выходил за границы */
 }
 .Project_Image {
   display: block;
   width: 100%;
-  color: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.Project_Item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+  pointer-events: none; /* Чтобы градиент не мешал кликам по изображению */
+  z-index: 1; /* Градиент выше картинки, но ниже текста */
 }
 
 h2 {
@@ -127,6 +143,7 @@ h2 {
   font-size: 35px;
   line-height: 100%;
   color: #ffffff;
+  z-index: 2; /* Текст выше градиента */
 }
 
 h3 {
@@ -137,4 +154,5 @@ h3 {
   font-size: 30px;
   line-height: 100%;
   color: #ffffff;
+  z-index: 2; /* Текст выше градиента */
 }
