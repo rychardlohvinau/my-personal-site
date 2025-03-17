@@ -111,6 +111,7 @@ h1 {
 
 .Project_Item {
   position: relative;
+  height: 550px;
   border-radius: 30px;
   overflow: hidden; /* Чтобы градиент не выходил за границы */
 }
