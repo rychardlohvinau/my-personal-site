@@ -96,6 +96,7 @@ body {
 }
 
 .Project_Section {
+  position: relative;
   width: 1155px;
   /* height: ; */
   margin: 0 auto;
@@ -156,4 +157,19 @@ h3 {
   line-height: 100%;
   color: #ffffff;
   z-index: 2; /* Текст выше градиента */
+}
+
+.AllProjectsButton {
+  margin-top: 80px;
+  width: 582px;
+  height: 153px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgba(27, 255, 7, 1);
+
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: -3%;
+  text-align: center;
 }
