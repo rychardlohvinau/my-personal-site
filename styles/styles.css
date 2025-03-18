@@ -173,3 +173,77 @@ h3 {
   letter-spacing: -3%;
   text-align: center;
 }
+
+.AllProjectsButton:hover {
+  background-color: rgb(0, 0, 0);
+  color: #1bff07;
+  border: solid rgba(27, 255, 7, 1);
+}
+#Competencies {
+  margin-left: 123px;
+  margin-top: 150px;
+}
+.competency_head {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 100%;
+  color: rgba(27, 255, 7, 1);
+}
+
+.competency_description {
+  width: 778px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 100%;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+/* .competency_description:nth-last-child(1) {
+  margin-bottom: 150px;
+} */
+#Services {
+  margin-top: 150px;
+  margin-left: 123px;
+}
+
+.ServiceItem {
+  width: 1150px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.ServiceImage {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: none;
+}
+
+.ServiceDescription {
+  box-sizing: border-box;
+  padding-top: 15px;
+  width: 1150px;
+  height: 283px;
+  background-color: #191c19;
+  border-radius: 30px;
+}
+
+.ServiceDescriptionHead {
+  margin-left: 42px;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  color: #1bff07;
+}
+
+.ServiceDescriptionParagraph {
+  margin-top: 40px;
+  margin-left: 42px;
+  width: 749px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: -3%;
+  color: #ffffff;
+}
